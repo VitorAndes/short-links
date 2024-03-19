@@ -3,6 +3,7 @@ import { z } from "zod";
 import { sql } from "./lib/postgres";
 import postgres from "postgres";
 import { redis } from "./lib/redis";
+// 
 
 const app = fastify();
 
