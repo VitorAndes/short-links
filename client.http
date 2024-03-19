@@ -1,0 +1,17 @@
+# Enviar links
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "blessedFm",
+    "url": "https://blessed-gules.vercel.app"
+}
+
+### Mostrar Links
+GET http://localhost:3333/api/links
+
+### Redirecionamento dos links
+GET http://localhost:3333/blessedFm
+
+### Metricas dos links +acessados
+GET http://localhost:3333/api/metrics
