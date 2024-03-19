@@ -1,1 +1,3 @@
 node_modules
+src/lib/postgres.ts
+src/lib/redis.ts
